@@ -42,7 +42,7 @@ function suma(x, y) {
   
  var sum = x + y;
  
- console.log ('La suma de los numeros es= '+sum);
+return sum; 
 
 }
 
@@ -52,7 +52,7 @@ function resta(x, y) {
   
   const rest = x - y; 
 
-  console.log('La resta de los numeros es= '+rest); 
+  return rest; 
 
 }
 
@@ -62,7 +62,7 @@ function multiplica(x, y) {
 
   const producto = x * y; 
 
-  console.log('El producto de los numeros es= '+producto); 
+  return producto;  
   
 }
 
@@ -72,7 +72,7 @@ function divide(x, y) {
 
   const division = x / y;; 
 
-  console.log('La dividion de los numeros es= '+division); 
+  return division; 
 
 }
 
@@ -147,7 +147,7 @@ function obtenerResto(x, y) {
 
   var resto = x % y; 
 
-  console.log('El resto de la division es= '+resto)
+  return resto; 
 
 }
 
