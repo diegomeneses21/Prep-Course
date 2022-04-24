@@ -323,9 +323,11 @@ function deEuroAdolar(euro){
 
     dolar= dolar*euro; 
 
+    return dolar; 
+
   }
 
-  return dolares; 
+  console.log(dolares);
   
 }
 
@@ -340,15 +342,15 @@ function esVocal(letra){
   function vocales (letra){
 
     if (letra.length>1){
-      console.log('Dato Incorrecto');
+      return 'Dato Incorrecto';
     }if(letra == ('a'||'e'||'i'||'o'||'u')){
     }else{
-      console.log ('Dato Incorrecto');
+      return 'Dato Incorrecto';
     }
 
   }
 
-  return vocales; 
+  console.log(vocales);
 
 }
 
