@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+}
+img {
+    width: 400px;
+}
+thirdDiv {
+    color: gold;
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 3px solid silver; 
+}
+thirId {
+    font-size: 18px;
+}
+spanId {
+    margin: 50px;
+}
