@@ -1,19 +1,51 @@
-h1{
-    color: aqua;
+h1 {
+    position: relative;
+    color: black;
+    top: -15px;
+    -webkit-flex: 1;
+    flex: 1;
 }
+
 img {
-    width: 400px;
+    position: static;
+    max-width: 400px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 0 1em 1em;
 }
+
 thirdDiv {
+    position: static;
     color: gold;
     height: 600px;
-    width: 500px;
+    max-width: 500px;
     padding: 50px;
-    border: 3px solid silver; 
+    border: 3px solid silver;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 thirId {
+    position: static;
     font-size: 18px;
 }
+
 spanId {
+    position: static;
     margin: 50px;
+}
+
+body {
+    position: static;
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fondos-pantalla-full-hd-animales_4.jpg);
+    background-size: 86rem;
+    justify-content: center;
+}
+
+div {
+    position: static;
+    text-align: center;
 }
